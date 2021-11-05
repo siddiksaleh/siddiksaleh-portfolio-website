@@ -1,0 +1,77 @@
+/* menu button background color*/
+.menuButton1 {
+  background-color: rgb(210,210,210);
+}
+
+/* codes for image in card*/
+img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+
+body {
+  text-align: center;
+  background: rgba(0, 0, 150, 0.5);
+  background-image: url(../backgroundimages/bg1.JPG);
+  background-size: cover;
+  background-position: center;
+  font-family: "fira Sans", sans-serif;
+  line-height: 1;
+  min-height: 100vh;
+  cursor: none;
+  overflow: hidden, scroll;
+}
+
+.profile-name {
+  font-size: 2rem;
+}
+
+.profile-name::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 2em;
+  background: #5bcbf0;
+  margin: 0.5em auto;
+}
+
+.profile-body {
+  letter-spacing: 1.7px;
+  line-height: 30px;
+}
+
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background:   #005e9b;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+.socialmedia-list {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.socialmedia-link {
+  color: #5bcbf0;
+  opacity: 0.8;
+  font-size: 1.5rem;
+  line-height: 2;
+
+}
+
+.socialmedia-link:hover  { opacity: 1;}
+.socialmedia-link:focus { opacity: 1;}

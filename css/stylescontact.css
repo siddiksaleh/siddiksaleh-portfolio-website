@@ -1,0 +1,68 @@
+/* menu button background color*/
+.menuButton1 {
+  background-color: rgb(210,210,210);
+}
+
+/* contact form codes */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: rgba(0, 0, 150, 0.5);
+  background-image: url(../backgroundimages/bg1.JPG);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  cursor: none;
+}
+
+.contact-form {
+  z-index: 2;
+}
+
+.contact-title {
+  margin-top: 30px;
+  color: gray;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 55px;
+  transition: all 4s ease-in-out;
+}
+input {
+  height: 40px;
+}
+
+.form-control {
+  width: 600px;
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit{
+  background: #ff5749;
+  border-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 40px;
+  margin-top: 25px;
+}

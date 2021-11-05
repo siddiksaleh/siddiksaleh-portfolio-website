@@ -1,0 +1,50 @@
+
+/*for background image*/
+body {
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: changeImg 50s linear infinite 0s;
+  overflow: hidden;
+  cursor: none;
+}
+
+@keyframes changeImg {
+  0%{background-image: url("../backgroundimages/walking.JPG");}
+  12% {background-image: url("../backgroundimages/walking.JPG");}
+  14% {background-image: url("../backgroundimages/dmuselfie.JPG");}
+  26% {background-image: url("../backgroundimages/dmuselfie.JPG");}
+  27% {background-image: url("../backgroundimages/selfie2.JPG");}
+  33% {background-image: url("../backgroundimages/selfie2.JPG");}
+  40% {background-image: url("../backgroundimages/topview.JPG");}
+  50% {background-image: url("../backgroundimages/topview.JPG");}
+  55% {background-image: url("../backgroundimages/dmusitting.JPG");}
+  65% {background-image: url("../backgroundimages/dmusitting.JPG");}
+  75% {background-image: url("../backgroundimages/attitude.JPG");}
+  100% {background-image: url("../backgroundimages/attitude.JPG");}
+}
+
+/*for text on home page screen*/
+div h3 {
+    z-index: 1;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    animation: titleAnimation 30s linear infinite 0s;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    padding: 0;
+    line-height: 100px;
+}
+
+@keyframes titleAnimation {
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
